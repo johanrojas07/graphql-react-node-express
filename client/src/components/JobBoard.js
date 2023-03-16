@@ -7,12 +7,17 @@ import { useEffect, useState } from 'react';
 
 function JobBoard() {
   const [jobs, setJobs] = useState([]);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     console.log();
-    getJobs().then(setJobs);
+    getJobs().then(setJobs)
+    .catch(() => setError(true));
   }, []);
 
+  if(error) {
+    return <p> Sorry, something went wrong </p>
+  }
   return (
     <div>
       <h1 className="title">
