@@ -1,9 +1,9 @@
 [
   {
     "id": "soP9m8MdKeQX_ZXZOCSaL",
-    "companyId": "pVbRRBQtMVw6lUAkj1k43",
-    "title": "Frontend Developer",
-    "description": "We are looking for a Frontend Developer familiar with React."
+    "title": "Senior DevOps",
+    "companyId": "wvdB54Gqbdp_NZTXK9Tue",
+    "description": "Change"
   },
   {
     "id": "GR7vTA_btqTnLtXcEDX8C",
@@ -16,11 +16,5 @@
     "companyId": "wvdB54Gqbdp_NZTXK9Tue",
     "title": "Full-Stack Developer",
     "description": "We are looking for a Full-Stack Developer familiar with Node.js, Express, and React."
-  },
-  {
-    "id": "OZHGt1iTEHMDYNzvUafS9",
-    "title": "DevOps Engineer",
-    "companyId": "wvdB54Gqbdp_NZTXK9Tue",
-    "description": "We need something to restart the servers when they fall over."
   }
 ]
